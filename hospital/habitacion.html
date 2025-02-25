@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Habitacion</title>
+</head>
+<body>
+    <h1>Habitacion</h1>
+
+    <form class="Habitacion" action="guardarB.php" method="POST">
+
+        
+        <label for="NumeroHabitacion">Numero de Habitacion</label>
+        <input type="text" id="NumeroHabitacion" name="NumeroHabitacion" maxlength="5" required><br><br>
+
+        <label for="Paciente">Paciente</label>
+        <input type="text" id="Paciente" name="Paciente" maxlength="50" required><br><br>
+
+        <label for="PersonalAsignado">Personal Asignado</label>
+        <input type="text" id="PersonalAsignado" name="PersonalAsignado" maxlength="50" required><br><br>
+
+        <label for="TiempoEstancia">Duracion de la Estancia</label>
+        <input type="text" id="TiempoEstancia" name="TiempoEstancia" maxlength="30" required><br><br>
+
+        <button class="submit" type="submit">Agregar Carrera</button>
+    </form>
+
+</body>
+</html>

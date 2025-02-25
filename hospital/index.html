@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Informacion Empleado</title>
+</head>
+<body>
+    <h1>Informacion del Empleado</h1>
+
+    <form class="empleado" action="guardar.php" method="POST">
+
+        
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" maxlength="50" required><br><br>
+
+        <label for="NumeroEmpleado">Numero de Empleado</label>
+        <input type="number" id="NumeroEmpleado" name="NumeroEmpleado" maxlength="15" required><br><br>
+
+        <label for="RFC">RFC</label>
+        <input type="text" id="RFC" name="RFC" maxlength="13" required><br><br>
+
+        <label for="CURP">CURP</label>
+        <input type="text" id="CURP" name="CURP" maxlength="18" required><br><br>
+
+        <label for="Telefono">Telefono</label>
+        <input type="number" id="Telefono" name="Telefono" maxlength="10" required><br><br>
+
+        <label for="puesto">Puesto</label>
+        <input type="text" id="puesto" name="puesto" maxlength="30" required><br><br>
+
+        <button class="submit" type="submit">Registrar Empleado</button>
+    </form>
+
+</body>
+</html>
